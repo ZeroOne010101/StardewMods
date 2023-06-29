@@ -48,7 +48,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)ListExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Messages\AutomateUpdateChestMessage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ModDataDictionaryExtensions.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ShirtSpriteInfo.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SpriteInfo.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)TileHelper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)UI\BaseOverlay.cs" />
