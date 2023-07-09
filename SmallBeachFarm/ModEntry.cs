@@ -137,8 +137,8 @@ namespace Pathoschild.Stardew.SmallBeachFarm
             {
                 e.Edit(editor =>
                 {
-                    LocationsData data = (LocationsData)editor.Data;
-                    data.Locations[$"Farm_{this.ModManifest.UniqueID}"] = this.Data.LocationData;
+                     var data = editor.AsDictionary<string, LocationData>().Data;
+                    data[$"Farm_{this.ModManifest.UniqueID}"] = this.Data.LocationData;
                 });
             }
 
